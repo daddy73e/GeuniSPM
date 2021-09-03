@@ -8,16 +8,16 @@
 import Foundation
 
 open class TestClass: NSObject {
-    var key = "0101"
+    open var key = "0101"
     private func testPrivate() {
-        print("hello world")
+        print("hello private")
     }
     
     open func testOpen() {
-        print("hello world")
+        print("hello Open")
     }
     
     public func testPublic() {
-        print("hello world")
+        print("hello Public")
     }
 }
