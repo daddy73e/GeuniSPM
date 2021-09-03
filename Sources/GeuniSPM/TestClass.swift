@@ -24,4 +24,8 @@ open class TestClass: NSObject {
     public func modify() {
         print("modify")
     }
+    
+    public func new() {
+        print("new")
+    }
 }
