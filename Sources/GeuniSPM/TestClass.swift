@@ -9,7 +9,15 @@ import Foundation
 
 open class TestClass: NSObject {
     var key = "0101"
-    private func testCall() {
+    private func testPrivate() {
+        print("hello world")
+    }
+    
+    open func testOpen() {
+        print("hello world")
+    }
+    
+    public func testPublic() {
         print("hello world")
     }
 }
