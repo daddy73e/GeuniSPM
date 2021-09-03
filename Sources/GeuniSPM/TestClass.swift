@@ -20,4 +20,8 @@ open class TestClass: NSObject {
     public func testPublic() {
         print("hello Public")
     }
+    
+    public func modify() {
+        print("modify")
+    }
 }
