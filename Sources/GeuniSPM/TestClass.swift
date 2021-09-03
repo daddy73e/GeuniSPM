@@ -26,6 +26,6 @@ open class TestClass: NSObject {
     }
     
     public func new() {
-        print("new")
+        
     }
 }
