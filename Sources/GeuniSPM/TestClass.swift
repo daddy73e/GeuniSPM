@@ -29,3 +29,8 @@ open class TestClass: NSObject {
         
     }
 }
+
+
+public func testOpen() {
+    print("TEST OPEN")
+}
